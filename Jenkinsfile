@@ -8,7 +8,7 @@ pipeline {
     environment {
         //배포에 필요한 변수 설정
         DOCKER_IMAGE = "demo-app" //도커 이미지 이름
-        CONTAINER_NAME = "speingboot-container" //도커 컨테이너 이름
+        CONTAINER_NAME = "springboot-container" //도커 컨테이너 이름
         JAR_FILE_NAME = "app.jar" //복사한 JAR 파일 이름
         PORT="8081" //컨테이너와 연결할 포트
 
